@@ -1,0 +1,294 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML Skeleton Workflow - A guide to creating a well-structured HTML5 document.">
+    <meta name="author" content="Caraga State University - College of Information and Computing Sciences">
+
+    <title>The HTML Skeleton</title>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <p>CARAGA STATE UNIVERSITY - COLLEGE OF INFORMATION AND COMPUTING SCIENCES</p>
+        <p>2026</p>
+
+        <h1>The &lt;HTML&gt; Skeleton</h1>
+
+        <p>
+            <strong>Goal:</strong>
+            Turn your sketch and your Phase 1 content into a
+            well-structured HTML page with no styling.
+        </p>
+
+        <p>
+            Lecturer: Princess Beverly R. Ala-an
+        </p>
+    </header>
+
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+        <!-- INTRODUCTION -->
+        <section id="introduction">
+
+            <h2>HTML Skeleton Workflow</h2>
+
+            <p>
+                Learn how to create a properly structured HTML5 document
+                by following these eight stages.
+            </p>
+
+        </section>
+
+
+        <!-- FIRST WORKFLOW SECTION -->
+        <section id="workflow-stage-one">
+
+            <h2>Stages 01-04</h2>
+
+            <!-- STAGE 01 -->
+            <article id="stage-01">
+
+                <h3>Stage 01 - CREATION</h3>
+
+                <p>
+                    Create a project folder with an index.html file
+                    and an images folder.
+                </p>
+
+                <ul>
+                    <li>Create a project folder.</li>
+                    <li>Create an index.html file.</li>
+                    <li>Create an images folder.</li>
+                </ul>
+
+            </article>
+
+
+            <!-- STAGE 02 -->
+            <article id="stage-02">
+
+                <h3>Stage 02 - HTML5 DOC</h3>
+
+                <p>
+                    Start from a valid HTML5 document containing
+                    the required document structure.
+                </p>
+
+                <ul>
+                    <li>DOCTYPE declaration</li>
+                    <li>HTML element with a lang attribute</li>
+                    <li>Head element</li>
+                    <li>Meta charset</li>
+                    <li>Meta viewport</li>
+                    <li>Descriptive title</li>
+                </ul>
+
+            </article>
+
+
+            <!-- STAGE 03 -->
+            <article id="stage-03">
+
+                <h3>Stage 03 - STRUCTURE</h3>
+
+                <p>
+                    Build a page structure from your sketch using
+                    appropriate semantic HTML elements.
+                </p>
+
+                <ul>
+                    <li>Header</li>
+                    <li>Navigation</li>
+                    <li>Main content</li>
+                    <li>Section</li>
+                    <li>Article</li>
+                    <li>Aside</li>
+                    <li>Footer</li>
+                </ul>
+
+            </article>
+
+
+            <!-- STAGE 04 -->
+            <article id="stage-04">
+
+                <h3>Stage 04 - CONTENT</h3>
+
+                <p>
+                    Add all your Phase 1 content using the correct
+                    HTML elements.
+                </p>
+
+                <ul>
+                    <li>Headings for sections</li>
+                    <li>Paragraphs</li>
+                    <li>Lists</li>
+                    <li>Links</li>
+                    <li>Images with meaningful alt text</li>
+                    <li>Figures with figcaptions</li>
+                </ul>
+
+                <figure>
+                    <img
+                        src="images/html-skeleton.png"
+                        alt="Illustration showing the basic structure of an HTML5 document"
+                    >
+                    <figcaption>
+                        Figure 1. Basic HTML5 document structure.
+                    </figcaption>
+                </figure>
+
+            </article>
+
+        </section>
+
+
+        <!-- SECOND WORKFLOW SECTION -->
+        <section id="workflow-stage-two">
+
+            <h2>Stages 05-08</h2>
+
+            <!-- STAGE 05 -->
+            <article id="stage-05">
+
+                <h3>Stage 05 - BUILD NAV</h3>
+
+                <p>
+                    Build navigation with links that work.
+                    Use anchors to connect sections or links to other pages.
+                </p>
+
+                <ul>
+                    <li>Use anchor elements.</li>
+                    <li>Link to the correct sections or pages.</li>
+                    <li>Make sure every link has a meaningful destination.</li>
+                </ul>
+
+                <nav aria-label="Workflow navigation">
+                    <ul>
+                        <li><a href="#stage-01">Stage 01 - Creation</a></li>
+                        <li><a href="#stage-02">Stage 02 - HTML5 Document</a></li>
+                        <li><a href="#stage-03">Stage 03 - Structure</a></li>
+                        <li><a href="#stage-04">Stage 04 - Content</a></li>
+                        <li><a href="#stage-05">Stage 05 - Build Nav</a></li>
+                        <li><a href="#stage-06">Stage 06 - Don'ts</a></li>
+                        <li><a href="#stage-07">Stage 07 - Run It</a></li>
+                        <li><a href="#stage-08">Stage 08 - Submission</a></li>
+                    </ul>
+                </nav>
+
+            </article>
+
+
+            <!-- STAGE 06 -->
+            <article id="stage-06">
+
+                <h3>Stage 06 - DON'TS</h3>
+
+                <p>
+                    Do not use CSS, style attributes, or outdated HTML tags.
+                    The page will look plain, and that is expected.
+                </p>
+
+                <ul>
+                    <li>Do not use CSS.</li>
+                    <li>Do not use inline styles.</li>
+                    <li>Do not use outdated HTML tags.</li>
+                    <li>Focus on proper HTML structure.</li>
+                </ul>
+
+            </article>
+
+
+            <!-- STAGE 07 -->
+            <article id="stage-07">
+
+                <h3>Stage 07 - RUN IT</h3>
+
+                <p>
+                    Run your page in a web browser and fix every error
+                    you can find.
+                </p>
+
+                <ol>
+                    <li>Open your project in Visual Studio Code.</li>
+                    <li>Open your index.html file.</li>
+                    <li>Run the page using a web browser.</li>
+                    <li>Check your links and content.</li>
+                    <li>Fix any errors you find.</li>
+                </ol>
+
+            </article>
+
+
+            <!-- STAGE 08 -->
+            <article id="stage-08">
+
+                <h3>Stage 08 - SUBMISSION</h3>
+
+                <p>
+                    Commit all of your work to GitHub.
+                    Make sure screenshots of the running page are
+                    included in your repository.
+                </p>
+
+                <ul>
+                    <li>Commit your HTML project.</li>
+                    <li>Push your files to GitHub.</li>
+                    <li>Include screenshots of your running page.</li>
+                    <li>Attach your repository link for submission.</li>
+                </ul>
+
+                <p>
+                    Visit
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                        GitHub
+                    </a>
+                    to access your repository.
+                </p>
+
+            </article>
+
+        </section>
+
+
+        <!-- ADDITIONAL INFORMATION -->
+        <aside>
+
+            <h2>Important Reminder</h2>
+
+            <p>
+                Always use proper HTML5 semantic elements.
+                Remember that this activity focuses on the structure
+                and organization of an HTML document, not its appearance.
+            </p>
+
+        </aside>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            &copy; 2026 Caraga State University -
+            College of Information and Computing Sciences.
+        </p>
+
+        <p>Lecturer: Princess Beverly R. Ala-an</p>
+
+        <p>HTML Skeleton Workflow</p>
+
+    </footer>
+
+</body>
+</html>
